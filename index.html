@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/base/base.css">
+    <!-- Componentes -->
+    <link rel="stylesheet" href="./assets/css/components/botoes.css">
+    <link rel="stylesheet" href="./assets/css/components/cartao.css">
+    <link rel="stylesheet" href="./assets/css/components/input.css">
+    <link rel="stylesheet" href="./assets/css/components/item.css">
+    <link rel="stylesheet" href="./assets/css/components/produto.css">
+    <title>Home | Casa Verde</title>
+    <script src='main.js'></script>
+  </head>
+  <body>
+    <main class="container">
+      <button class="botao">Assinar Newsletter</button>
+      <input 
+        type="text" 
+        aria-label="Insira seu e-mail"
+        placeholder="Insira seu e-mail" 
+        class="input input--icone input--email" 
+      >
+      <button class="botao botao--alternativo">Botão alternativo</button>
+      
+      <article class="cartao">
+        <h2 class="titulo alinhamento--meio">
+          Como conseguir
+          <span class="titulo--destaque">minha planta</span>
+        </h2>
+
+        <ul class="lista-item">
+          <li class="item">
+            <span class="item__icone item__icone--cursor"></span>
+            <p>Escolha suas plantas</p>
+          </li>
+          <li class="item">
+            <span class="item__icone item__icone--cart"></span>
+            <p>Faça seu pedido</p>
+          </li>
+          <li class="item">
+            <span class="item__icone item__icone--truck"></span>
+            <p>Aguarde na sua casa</p>
+          </li>
+        </ul>
+      </article>
+
+      <article class="produto">
+        <img src="assets/img/produto-01.png" alt="Foto do produto" class="produto__imagem">
+        <div class="produto__conteudo">
+          <h3 class="produto__titulo titulo--destaque">Ajuga  reptans</h3>
+          <p class="produto__preco">R$ 20,00</p>
+          <a href="#" class="produto__comprar">
+            Comprar
+            <span class="produto__comprar--icone"></span>
+          </a>
+        </div>
+      </article>
+
+    </main>
+  </body>
+</html>
