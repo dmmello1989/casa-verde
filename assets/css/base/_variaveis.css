@@ -10,9 +10,11 @@
   --ff-titulo-destaque: 'Elsie Swash Caps', serif;
   
   --fw-botao: 700;
+  --fw-destaque: 700;
   --fw-titulo-destaque: 900;
   
   --fs-corpo: 1rem;
   --fs-titulo: 1.375rem;
+  --fs-destaque: 1.375rem;
   --fs-titulo-destaque: 2rem;
 }
