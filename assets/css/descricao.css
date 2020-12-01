@@ -1,0 +1,11 @@
+.descricao {
+  background-color: var(--branco);
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+  padding-right: 1.75rem;
+  padding-bottom: 1rem;
+}
+
+.descricao__link {
+  color: var(--amarelo);
+}

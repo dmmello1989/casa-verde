@@ -1,0 +1,17 @@
+.detalhe-chamada {
+  padding-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.detalhe-chamada__preco {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.detalhe-chamada__texto {
+  margin-bottom: -5rem;
+}
+
+.detalhe-chamada__botao {
+  margin-bottom: 1rem;
+}
